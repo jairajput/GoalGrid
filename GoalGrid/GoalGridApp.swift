@@ -11,7 +11,10 @@ import SwiftUI
 struct GoalGridApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView{
+                ListView()
+            }
         }
     }
-}
+} 
