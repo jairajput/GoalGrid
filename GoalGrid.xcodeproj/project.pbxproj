@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D894DEDD2AF6186700820B78 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894DEDC2AF6186700820B78 /* ListRowView.swift */; };
 		D894DEDF2AF61BA400820B78 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894DEDE2AF61BA400820B78 /* AddView.swift */; };
+		D894DEE22AF6931400820B78 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894DEE12AF6931400820B78 /* ItemModel.swift */; };
 		D8DAB89D2AEEE3EF005BFC8C /* GoalGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DAB89C2AEEE3EF005BFC8C /* GoalGridApp.swift */; };
 		D8DAB8A12AEEE3F2005BFC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAB8A02AEEE3F2005BFC8C /* Assets.xcassets */; };
 		D8DAB8A42AEEE3F2005BFC8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DAB8A32AEEE3F2005BFC8C /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		D894DEDC2AF6186700820B78 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		D894DEDE2AF61BA400820B78 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		D894DEE12AF6931400820B78 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		D8DAB8992AEEE3EF005BFC8C /* GoalGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DAB89C2AEEE3EF005BFC8C /* GoalGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalGridApp.swift; sourceTree = "<group>"; };
 		D8DAB8A02AEEE3F2005BFC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D894DEE02AF6930300820B78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D894DEE12AF6931400820B78 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D8DAB8902AEEE3EF005BFC8C = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		D8DAB89B2AEEE3EF005BFC8C /* GoalGrid */ = {
 			isa = PBXGroup;
 			children = (
+				D894DEE02AF6930300820B78 /* Model */,
 				D8DAB8AA2AEEE964005BFC8C /* View */,
 				D8DAB89C2AEEE3EF005BFC8C /* GoalGridApp.swift */,
 				D8DAB8A02AEEE3F2005BFC8C /* Assets.xcassets */,
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D894DEE22AF6931400820B78 /* ItemModel.swift in Sources */,
 				D894DEDF2AF61BA400820B78 /* AddView.swift in Sources */,
 				D8DAB89D2AEEE3EF005BFC8C /* GoalGridApp.swift in Sources */,
 				D8DAB8AC2AEEE9FB005BFC8C /* ListView.swift in Sources */,
